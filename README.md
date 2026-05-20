@@ -44,18 +44,24 @@ pip install pandas pyyaml
 
 ```yaml
 email:
-  gmail:        "your.email@gmail.com"
+  gmail:        "elonmusk@gmail.com"
   app\\\_password: "xxxx xxxx xxxx xxxx"   # from myaccount.google.com/apppasswords
 
 profile:
-  name:     "Your Name"
-  phone:    "+91-XXXXXXXXXX"
-  email:    "your.professional@email.com"
-  degree:   "M.Tech in Computer Science"
-  college:  "IIT Bombay"
-  gpa:      "9.0/10"
+  name:         "Name"
+  phone:        "9998887320"
+  email:        "elonmusk@gmail.com"   # shown in signature (can differ from sender Gmail)
+  degree:       "B.Sc Economics & Physics"
+  college:      "IIT Bombay"
+  gpa:          "4.0 GPA"
+  experience:   "25+ years"                  # shown in email body
   linkedin: "https://linkedin.com/in/yourprofile"
   github:   "https://github.com/yourusername"
+
+# ── Roles you are targeting ────────────────────────────────
+job:
+  roles:        "CEO"
+  ctc:          "$15–20 TPA"
 
 highlights:
   - "Your achievement 1"
@@ -71,7 +77,9 @@ Your `hr\\\_contacts.csv` should have these columns:
 
 ```
 Name, Email, Title, Company
-Akanksha Puri, akanksha@company.com, Head HR, SourceFuse Technologies
+Brahma, ahambrahmaasmi@gmail.com, CSO, Universe
+Vishnu, ahamvisnuasmi@gmail.com, CEO, Universe
+Mahesh, devodekdevmahadev@gmail.com, CTO, Universe
 ```
 
 ### 4\. Dry run first (safe preview)
