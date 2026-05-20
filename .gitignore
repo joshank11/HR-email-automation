@@ -1,0 +1,11 @@
+config.yaml
+sent_log.csv
+email_run.log
+output.log
+nohup.out
+*.pdf
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
